@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyWebApp
+</name>
+</assembly>
+<members>
+<member name="T:MyWebApp.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:MyWebApp.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:MyWebApp.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:MyWebApp.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:MyWebApp.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:MyWebApp.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="M:MyWebApp.MyWebService.ProcessRequest(System.String)">
+ <summary>
+ ProcessRequest webmethod to handle all type of requests from client side.
+ </summary>
+ <param name="SessionToken">Valid session token.</param>
+ <param name="Action">Action defines various actions the service can do.</param>
+ <param name="RequestType">Type of request for the Action selected.</param>
+ <param name="SerializedObject">Request object in JSON serialized format.</param>
+ <returns>Always returns JSON object.</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
